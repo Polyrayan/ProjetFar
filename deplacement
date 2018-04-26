@@ -1,0 +1,52 @@
+switch action{
+	case '';  //touche du haut
+		envoi= //voir comment on doit communiquer avec le serveur
+		send(sock, envoi, TAILLE_TRAME, 0);
+		break;
+
+	case  ''; //savoir la touche de la fleche du bas
+		envoi= //voir comment on doit communiquer
+		send(sock, envoi, TAILLE_TRAME, 0);
+		break;
+    
+    case ''; //savoir la touche de la fleche de droite 
+    	envoi= //voir comment on communique
+    	send(sock, envoi, TAILLE_TRAME, 0);
+    	break;
+
+    case '': //touche fleche de droite
+    	envoi=
+    	send(sock, envoi, TAILLE_TRAME, 0)
+    	break;
+}
+
+	case 'f': //voler villageois
+		fgets(action,1,stdin)
+		switch action {
+			case '':
+				break;
+
+			case '':
+				break;
+
+			case '':
+				break;
+
+			case '':
+				break;
+
+		break;
+		}
+
+if(carte[newX][newY]== /*code pour dire " il y a un villageois ")*/{
+		//send requete au serveur après vérification
+	}
+
+if(carte[newX][newY]== /*code pour dire " il y a un sphinx ")*/{
+		//send requete au serveur après vérification
+	}
+
+if(carte[newX][newY]== /*code pour dire " il y a un Thèbes ")*/{
+		//send requete au serveur après vérification
+	}
+} 	
